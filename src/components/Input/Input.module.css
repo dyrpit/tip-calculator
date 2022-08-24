@@ -1,0 +1,31 @@
+.inputContainer {
+  position: relative;
+}
+
+.input {
+  width: 100%;
+  padding: var(--metricS);
+  background-color: var(--very-light-cyan);
+  border: none;
+  border-radius: 5px;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  font-size: var(--fontSizeM);
+  color: var(--very-dark-cyan);
+  text-align: right;
+  cursor: pointer;
+  outline-color: var(--primary);
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: var(--metricS);
+  transform: translateY(-50%);
+  color: var(--gray-cyan);
+}

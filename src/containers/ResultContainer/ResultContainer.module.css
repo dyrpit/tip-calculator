@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--very-dark-cyan);
+  color: var(--white);
+  padding: var(--metricL);
+  border-radius: 15px;
+}

@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--metricM);
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  text-transform: capitalize;
+}
+
+.titleSmall {
+  color: var(--dark-cyan);
+}
+
+.amount {
+  font-size: var(--fontSizeL);
+  font-weight: 700;
+  color: var(--primary);
+}

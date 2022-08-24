@@ -1,0 +1,27 @@
+.label {
+  display: inline-block;
+  width: 150px;
+  padding: var(--metricS);
+  background-color: var(--very-dark-cyan);
+  color: var(--white);
+  font-size: var(--fontSizeM);
+  font-weight: 700;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.radioButton {
+  display: none;
+}
+
+.selected {
+  background-color: var(--primary);
+  color: var(--very-dark-cyan);
+}
+
+@media (min-width: 764px) {
+  .label {
+    width: 120px;
+  }
+}

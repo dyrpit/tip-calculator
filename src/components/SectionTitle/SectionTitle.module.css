@@ -1,0 +1,7 @@
+.title {
+  margin-bottom: var(--metricS);
+  color: var(--gray-cyan);
+  font-size: var(--fontSizeS);
+  font-weight: 700;
+  text-transform: capitalize;
+}

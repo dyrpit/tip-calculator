@@ -1,0 +1,8 @@
+.title {
+  margin-bottom: var(--metricS);
+  font-size: var(--fontSizeM);
+  color: var(--very-dark-cyan);
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: var(--metricS);
+}

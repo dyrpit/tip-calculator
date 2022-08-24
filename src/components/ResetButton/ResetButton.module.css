@@ -1,0 +1,23 @@
+.button {
+  width: 100%;
+  padding: var(--metricS);
+  margin-top: auto;
+  background-color: var(--primary);
+  border: none;
+  border-radius: 5px;
+  font-size: var(--fontSizeM);
+  font-weight: 700;
+  color: var(--very-dark-cyan);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.button:hover {
+  background-color: hsl(172, 100%, 45%);
+}
+
+.button:disabled {
+  background-color: var(--dark-cyan);
+  cursor: not-allowed;
+}
